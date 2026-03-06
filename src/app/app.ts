@@ -6,7 +6,7 @@ import { Navi } from './comps/navi/navi';
   selector: 'app-root',
   imports: [RouterOutlet, Navi],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   protected readonly title = signal('midtermApp');
